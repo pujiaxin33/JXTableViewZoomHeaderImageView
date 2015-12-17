@@ -31,6 +31,8 @@
 //    ZoomHeaderView *headerView = [[ZoomHeaderView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 300) type:ZoomHeaderViewTypeCodeConstraint];
     //xib约束
     ZoomHeaderView *headerView = [[[NSBundle mainBundle] loadNibNamed:@"ZoomHeaderView" owner:nil options:nil] lastObject];
+    //可以对比看效果
+//    headerView.isNeedNarrow = NO;
     tableView.tableHeaderView = headerView;
     self.headerView = headerView;
 }

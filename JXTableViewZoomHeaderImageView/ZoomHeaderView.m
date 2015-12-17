@@ -29,6 +29,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        self.isNeedNarrow = YES;
         self.type = type;
         [self initUI];
     }
@@ -39,6 +40,7 @@
 {
     self = [super initWithCoder:aDecoder];
     if (self) {
+        self.isNeedNarrow = YES;
         [self initUIXibConstraint];
     }
     return self;
@@ -92,6 +94,9 @@
 
 - (void)updateHeaderImageViewFrameWithOffsetY:(CGFloat)offsetY
 {
+    if (!self.isNeedNarrow && offsetY > 0) {
+        return;
+    }
     switch (self.type) {
         case ZoomHeaderViewTypeNoConstraint:
         {
