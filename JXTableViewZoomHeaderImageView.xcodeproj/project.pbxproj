@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19CF12761C224A42002D45CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12751C224A42002D45CB /* main.m */; };
+		19CF12791C224A42002D45CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12781C224A42002D45CB /* AppDelegate.m */; };
+		19CF127C1C224A42002D45CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF127B1C224A42002D45CB /* ViewController.m */; };
+		19CF127F1C224A42002D45CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CF127D1C224A42002D45CB /* Main.storyboard */; };
+		19CF12811C224A42002D45CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CF12801C224A42002D45CB /* Assets.xcassets */; };
+		19CF12841C224A43002D45CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CF12821C224A43002D45CB /* LaunchScreen.storyboard */; };
+		19CF128F1C224A43002D45CB /* JXTableViewZoomHeaderImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF128E1C224A43002D45CB /* JXTableViewZoomHeaderImageViewTests.m */; };
+		19CF129A1C224A43002D45CB /* JXTableViewZoomHeaderImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12991C224A43002D45CB /* JXTableViewZoomHeaderImageViewUITests.m */; };
+		19CF12A91C224A73002D45CB /* ZoomHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12A81C224A73002D45CB /* ZoomHeaderView.m */; };
+		19CF12AB1C224B0E002D45CB /* lufei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19CF12AA1C224B0E002D45CB /* lufei.jpg */; };
+		19CF12C61C2251E3002D45CB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12AE1C2251E3002D45CB /* MASCompositeConstraint.m */; };
+		19CF12C71C2251E3002D45CB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12B11C2251E3002D45CB /* MASConstraint.m */; };
+		19CF12C81C2251E3002D45CB /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12B31C2251E3002D45CB /* MASConstraintMaker.m */; };
+		19CF12C91C2251E3002D45CB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12B51C2251E3002D45CB /* MASLayoutConstraint.m */; };
+		19CF12CA1C2251E3002D45CB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12B91C2251E3002D45CB /* MASViewAttribute.m */; };
+		19CF12CB1C2251E3002D45CB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12BB1C2251E3002D45CB /* MASViewConstraint.m */; };
+		19CF12CC1C2251E3002D45CB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12BD1C2251E3002D45CB /* NSArray+MASAdditions.m */; };
+		19CF12CD1C2251E3002D45CB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12C01C2251E3002D45CB /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		19CF12CE1C2251E3002D45CB /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12C21C2251E3002D45CB /* View+MASAdditions.m */; };
+		19CF12CF1C2251E3002D45CB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF12C51C2251E3002D45CB /* ViewController+MASAdditions.m */; };
+		19CF12D11C22572C002D45CB /* ZoomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19CF12D01C22572C002D45CB /* ZoomHeaderView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19CF128B1C224A43002D45CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19CF12691C224A42002D45CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19CF12701C224A42002D45CB;
+			remoteInfo = JXTableViewZoomHeaderImageView;
+		};
+		19CF12961C224A43002D45CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19CF12691C224A42002D45CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19CF12701C224A42002D45CB;
+			remoteInfo = JXTableViewZoomHeaderImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19CF12711C224A42002D45CB /* JXTableViewZoomHeaderImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXTableViewZoomHeaderImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CF12751C224A42002D45CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19CF12771C224A42002D45CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19CF12781C224A42002D45CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19CF127A1C224A42002D45CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19CF127B1C224A42002D45CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19CF127E1C224A42002D45CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19CF12801C224A42002D45CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19CF12831C224A43002D45CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19CF12851C224A43002D45CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CF128A1C224A43002D45CB /* JXTableViewZoomHeaderImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXTableViewZoomHeaderImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CF128E1C224A43002D45CB /* JXTableViewZoomHeaderImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXTableViewZoomHeaderImageViewTests.m; sourceTree = "<group>"; };
+		19CF12901C224A43002D45CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CF12951C224A43002D45CB /* JXTableViewZoomHeaderImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXTableViewZoomHeaderImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CF12991C224A43002D45CB /* JXTableViewZoomHeaderImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXTableViewZoomHeaderImageViewUITests.m; sourceTree = "<group>"; };
+		19CF129B1C224A43002D45CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CF12A71C224A73002D45CB /* ZoomHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomHeaderView.h; sourceTree = "<group>"; };
+		19CF12A81C224A73002D45CB /* ZoomHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomHeaderView.m; sourceTree = "<group>"; };
+		19CF12AA1C224B0E002D45CB /* lufei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lufei.jpg; sourceTree = "<group>"; };
+		19CF12AD1C2251E3002D45CB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		19CF12AE1C2251E3002D45CB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		19CF12AF1C2251E3002D45CB /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		19CF12B01C2251E3002D45CB /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		19CF12B11C2251E3002D45CB /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		19CF12B21C2251E3002D45CB /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		19CF12B31C2251E3002D45CB /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		19CF12B41C2251E3002D45CB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		19CF12B51C2251E3002D45CB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		19CF12B61C2251E3002D45CB /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		19CF12B71C2251E3002D45CB /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		19CF12B81C2251E3002D45CB /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		19CF12B91C2251E3002D45CB /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		19CF12BA1C2251E3002D45CB /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		19CF12BB1C2251E3002D45CB /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		19CF12BC1C2251E3002D45CB /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		19CF12BD1C2251E3002D45CB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		19CF12BE1C2251E3002D45CB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		19CF12BF1C2251E3002D45CB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		19CF12C01C2251E3002D45CB /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		19CF12C11C2251E3002D45CB /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		19CF12C21C2251E3002D45CB /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		19CF12C31C2251E3002D45CB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		19CF12C41C2251E3002D45CB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		19CF12C51C2251E3002D45CB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		19CF12D01C22572C002D45CB /* ZoomHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZoomHeaderView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19CF126E1C224A42002D45CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CF12871C224A43002D45CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CF12921C224A43002D45CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19CF12681C224A42002D45CB = {
+			isa = PBXGroup;
+			children = (
+				19CF12731C224A42002D45CB /* JXTableViewZoomHeaderImageView */,
+				19CF128D1C224A43002D45CB /* JXTableViewZoomHeaderImageViewTests */,
+				19CF12981C224A43002D45CB /* JXTableViewZoomHeaderImageViewUITests */,
+				19CF12721C224A42002D45CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19CF12721C224A42002D45CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19CF12711C224A42002D45CB /* JXTableViewZoomHeaderImageView.app */,
+				19CF128A1C224A43002D45CB /* JXTableViewZoomHeaderImageViewTests.xctest */,
+				19CF12951C224A43002D45CB /* JXTableViewZoomHeaderImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19CF12731C224A42002D45CB /* JXTableViewZoomHeaderImageView */ = {
+			isa = PBXGroup;
+			children = (
+				19CF12771C224A42002D45CB /* AppDelegate.h */,
+				19CF12781C224A42002D45CB /* AppDelegate.m */,
+				19CF127A1C224A42002D45CB /* ViewController.h */,
+				19CF127B1C224A42002D45CB /* ViewController.m */,
+				19CF12A71C224A73002D45CB /* ZoomHeaderView.h */,
+				19CF12A81C224A73002D45CB /* ZoomHeaderView.m */,
+				19CF12D01C22572C002D45CB /* ZoomHeaderView.xib */,
+				19CF127D1C224A42002D45CB /* Main.storyboard */,
+				19CF12801C224A42002D45CB /* Assets.xcassets */,
+				19CF12821C224A43002D45CB /* LaunchScreen.storyboard */,
+				19CF12851C224A43002D45CB /* Info.plist */,
+				19CF12741C224A42002D45CB /* Supporting Files */,
+			);
+			path = JXTableViewZoomHeaderImageView;
+			sourceTree = "<group>";
+		};
+		19CF12741C224A42002D45CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19CF12AC1C2251E3002D45CB /* Masonry */,
+				19CF12751C224A42002D45CB /* main.m */,
+				19CF12AA1C224B0E002D45CB /* lufei.jpg */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19CF128D1C224A43002D45CB /* JXTableViewZoomHeaderImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				19CF128E1C224A43002D45CB /* JXTableViewZoomHeaderImageViewTests.m */,
+				19CF12901C224A43002D45CB /* Info.plist */,
+			);
+			path = JXTableViewZoomHeaderImageViewTests;
+			sourceTree = "<group>";
+		};
+		19CF12981C224A43002D45CB /* JXTableViewZoomHeaderImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19CF12991C224A43002D45CB /* JXTableViewZoomHeaderImageViewUITests.m */,
+				19CF129B1C224A43002D45CB /* Info.plist */,
+			);
+			path = JXTableViewZoomHeaderImageViewUITests;
+			sourceTree = "<group>";
+		};
+		19CF12AC1C2251E3002D45CB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				19CF12AD1C2251E3002D45CB /* MASCompositeConstraint.h */,
+				19CF12AE1C2251E3002D45CB /* MASCompositeConstraint.m */,
+				19CF12AF1C2251E3002D45CB /* MASConstraint+Private.h */,
+				19CF12B01C2251E3002D45CB /* MASConstraint.h */,
+				19CF12B11C2251E3002D45CB /* MASConstraint.m */,
+				19CF12B21C2251E3002D45CB /* MASConstraintMaker.h */,
+				19CF12B31C2251E3002D45CB /* MASConstraintMaker.m */,
+				19CF12B41C2251E3002D45CB /* MASLayoutConstraint.h */,
+				19CF12B51C2251E3002D45CB /* MASLayoutConstraint.m */,
+				19CF12B61C2251E3002D45CB /* Masonry.h */,
+				19CF12B71C2251E3002D45CB /* MASUtilities.h */,
+				19CF12B81C2251E3002D45CB /* MASViewAttribute.h */,
+				19CF12B91C2251E3002D45CB /* MASViewAttribute.m */,
+				19CF12BA1C2251E3002D45CB /* MASViewConstraint.h */,
+				19CF12BB1C2251E3002D45CB /* MASViewConstraint.m */,
+				19CF12BC1C2251E3002D45CB /* NSArray+MASAdditions.h */,
+				19CF12BD1C2251E3002D45CB /* NSArray+MASAdditions.m */,
+				19CF12BE1C2251E3002D45CB /* NSArray+MASShorthandAdditions.h */,
+				19CF12BF1C2251E3002D45CB /* NSLayoutConstraint+MASDebugAdditions.h */,
+				19CF12C01C2251E3002D45CB /* NSLayoutConstraint+MASDebugAdditions.m */,
+				19CF12C11C2251E3002D45CB /* View+MASAdditions.h */,
+				19CF12C21C2251E3002D45CB /* View+MASAdditions.m */,
+				19CF12C31C2251E3002D45CB /* View+MASShorthandAdditions.h */,
+				19CF12C41C2251E3002D45CB /* ViewController+MASAdditions.h */,
+				19CF12C51C2251E3002D45CB /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19CF12701C224A42002D45CB /* JXTableViewZoomHeaderImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CF129E1C224A43002D45CB /* Build configuration list for PBXNativeTarget "JXTableViewZoomHeaderImageView" */;
+			buildPhases = (
+				19CF126D1C224A42002D45CB /* Sources */,
+				19CF126E1C224A42002D45CB /* Frameworks */,
+				19CF126F1C224A42002D45CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXTableViewZoomHeaderImageView;
+			productName = JXTableViewZoomHeaderImageView;
+			productReference = 19CF12711C224A42002D45CB /* JXTableViewZoomHeaderImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19CF12891C224A43002D45CB /* JXTableViewZoomHeaderImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CF12A11C224A43002D45CB /* Build configuration list for PBXNativeTarget "JXTableViewZoomHeaderImageViewTests" */;
+			buildPhases = (
+				19CF12861C224A43002D45CB /* Sources */,
+				19CF12871C224A43002D45CB /* Frameworks */,
+				19CF12881C224A43002D45CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19CF128C1C224A43002D45CB /* PBXTargetDependency */,
+			);
+			name = JXTableViewZoomHeaderImageViewTests;
+			productName = JXTableViewZoomHeaderImageViewTests;
+			productReference = 19CF128A1C224A43002D45CB /* JXTableViewZoomHeaderImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19CF12941C224A43002D45CB /* JXTableViewZoomHeaderImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CF12A41C224A43002D45CB /* Build configuration list for PBXNativeTarget "JXTableViewZoomHeaderImageViewUITests" */;
+			buildPhases = (
+				19CF12911C224A43002D45CB /* Sources */,
+				19CF12921C224A43002D45CB /* Frameworks */,
+				19CF12931C224A43002D45CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19CF12971C224A43002D45CB /* PBXTargetDependency */,
+			);
+			name = JXTableViewZoomHeaderImageViewUITests;
+			productName = JXTableViewZoomHeaderImageViewUITests;
+			productReference = 19CF12951C224A43002D45CB /* JXTableViewZoomHeaderImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19CF12691C224A42002D45CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jiaxin;
+				TargetAttributes = {
+					19CF12701C224A42002D45CB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					19CF12891C224A43002D45CB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 19CF12701C224A42002D45CB;
+					};
+					19CF12941C224A43002D45CB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 19CF12701C224A42002D45CB;
+					};
+				};
+			};
+			buildConfigurationList = 19CF126C1C224A42002D45CB /* Build configuration list for PBXProject "JXTableViewZoomHeaderImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19CF12681C224A42002D45CB;
+			productRefGroup = 19CF12721C224A42002D45CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19CF12701C224A42002D45CB /* JXTableViewZoomHeaderImageView */,
+				19CF12891C224A43002D45CB /* JXTableViewZoomHeaderImageViewTests */,
+				19CF12941C224A43002D45CB /* JXTableViewZoomHeaderImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19CF126F1C224A42002D45CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CF12841C224A43002D45CB /* LaunchScreen.storyboard in Resources */,
+				19CF12AB1C224B0E002D45CB /* lufei.jpg in Resources */,
+				19CF12D11C22572C002D45CB /* ZoomHeaderView.xib in Resources */,
+				19CF12811C224A42002D45CB /* Assets.xcassets in Resources */,
+				19CF127F1C224A42002D45CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CF12881C224A43002D45CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CF12931C224A43002D45CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19CF126D1C224A42002D45CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CF12C81C2251E3002D45CB /* MASConstraintMaker.m in Sources */,
+				19CF12A91C224A73002D45CB /* ZoomHeaderView.m in Sources */,
+				19CF127C1C224A42002D45CB /* ViewController.m in Sources */,
+				19CF12C71C2251E3002D45CB /* MASConstraint.m in Sources */,
+				19CF12CF1C2251E3002D45CB /* ViewController+MASAdditions.m in Sources */,
+				19CF12C91C2251E3002D45CB /* MASLayoutConstraint.m in Sources */,
+				19CF12CC1C2251E3002D45CB /* NSArray+MASAdditions.m in Sources */,
+				19CF12CB1C2251E3002D45CB /* MASViewConstraint.m in Sources */,
+				19CF12CA1C2251E3002D45CB /* MASViewAttribute.m in Sources */,
+				19CF12CE1C2251E3002D45CB /* View+MASAdditions.m in Sources */,
+				19CF12791C224A42002D45CB /* AppDelegate.m in Sources */,
+				19CF12761C224A42002D45CB /* main.m in Sources */,
+				19CF12C61C2251E3002D45CB /* MASCompositeConstraint.m in Sources */,
+				19CF12CD1C2251E3002D45CB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CF12861C224A43002D45CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CF128F1C224A43002D45CB /* JXTableViewZoomHeaderImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CF12911C224A43002D45CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CF129A1C224A43002D45CB /* JXTableViewZoomHeaderImageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19CF128C1C224A43002D45CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19CF12701C224A42002D45CB /* JXTableViewZoomHeaderImageView */;
+			targetProxy = 19CF128B1C224A43002D45CB /* PBXContainerItemProxy */;
+		};
+		19CF12971C224A43002D45CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19CF12701C224A42002D45CB /* JXTableViewZoomHeaderImageView */;
+			targetProxy = 19CF12961C224A43002D45CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19CF127D1C224A42002D45CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19CF127E1C224A42002D45CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19CF12821C224A43002D45CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19CF12831C224A43002D45CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19CF129C1C224A43002D45CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19CF129D1C224A43002D45CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19CF129F1C224A43002D45CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXTableViewZoomHeaderImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiaxin.JXTableViewZoomHeaderImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19CF12A01C224A43002D45CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXTableViewZoomHeaderImageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiaxin.JXTableViewZoomHeaderImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19CF12A21C224A43002D45CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXTableViewZoomHeaderImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiaxin.JXTableViewZoomHeaderImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXTableViewZoomHeaderImageView.app/JXTableViewZoomHeaderImageView";
+			};
+			name = Debug;
+		};
+		19CF12A31C224A43002D45CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXTableViewZoomHeaderImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiaxin.JXTableViewZoomHeaderImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXTableViewZoomHeaderImageView.app/JXTableViewZoomHeaderImageView";
+			};
+			name = Release;
+		};
+		19CF12A51C224A43002D45CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXTableViewZoomHeaderImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiaxin.JXTableViewZoomHeaderImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXTableViewZoomHeaderImageView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		19CF12A61C224A43002D45CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXTableViewZoomHeaderImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jiaxin.JXTableViewZoomHeaderImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXTableViewZoomHeaderImageView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19CF126C1C224A42002D45CB /* Build configuration list for PBXProject "JXTableViewZoomHeaderImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CF129C1C224A43002D45CB /* Debug */,
+				19CF129D1C224A43002D45CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19CF129E1C224A43002D45CB /* Build configuration list for PBXNativeTarget "JXTableViewZoomHeaderImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CF129F1C224A43002D45CB /* Debug */,
+				19CF12A01C224A43002D45CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19CF12A11C224A43002D45CB /* Build configuration list for PBXNativeTarget "JXTableViewZoomHeaderImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CF12A21C224A43002D45CB /* Debug */,
+				19CF12A31C224A43002D45CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19CF12A41C224A43002D45CB /* Build configuration list for PBXNativeTarget "JXTableViewZoomHeaderImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CF12A51C224A43002D45CB /* Debug */,
+				19CF12A61C224A43002D45CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19CF12691C224A42002D45CB /* Project object */;
+}
