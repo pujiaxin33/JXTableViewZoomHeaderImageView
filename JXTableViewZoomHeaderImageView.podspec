@@ -7,7 +7,7 @@ s.license      = 'MIT'
 s.authors      = {'pujiaxin' => '317437084@qq.com'}
 s.platform     = :ios, '8.0'
 s.source       = {:git => 'https://github.com/pujiaxin33/JXTableViewZoomHeaderImageView.git', :tag => s.version}
-s.source_files = 'JXTableViewZoomHeaderImageView/**/*'
+s.source_files = 'JXTableViewZoomHeaderImageView/**/*.{h,m}'
 s.requires_arc = true
 end
 
